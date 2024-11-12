@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2037,7 +2037,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -286.64, y: 1452}
+  m_AnchoredPosition: {x: 286.64, y: 1452}
   m_SizeDelta: {x: 799.1, y: 286.89}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &614038844
@@ -2235,8 +2235,8 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_VertexColorAlwaysGammaSpace: 1
+  m_AdditionalShaderChannelsFlag: -1
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -5872,14 +5872,12 @@ MonoBehaviour:
   moveDirection: {x: 0, y: 0, z: 0}
   _isPunching: 0
   target: {fileID: 0}
-  distance: 0
-  angle: 0
-  _limtDA: {x: 0, y: 0}
   _enemyP: {fileID: 0}
   _enemy: []
   _npc: {fileID: 0}
   _objCarg: {fileID: 0}
   _car: 0
+  _checkP: 0
 --- !u!143 &1506694443
 CharacterController:
   m_ObjectHideFlags: 0
@@ -7314,14 +7312,12 @@ MonoBehaviour:
   moveDirection: {x: 0, y: 0, z: 0}
   _isPunching: 0
   target: {fileID: 5006512736157431520}
-  distance: 1
-  angle: 0
-  _limtDA: {x: 12, y: 12}
   _enemyP: {fileID: 0}
   _enemy: []
   _npc: {fileID: 1279993479533580339}
   _objCarg: {fileID: 2127361813}
   _car: 0
+  _checkP: 0
 --- !u!143 &1787540917
 CharacterController:
   m_ObjectHideFlags: 0
