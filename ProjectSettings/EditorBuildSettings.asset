@@ -9,5 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/TesteTecnico.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 46a46db968fcb46428947b58820e69fe, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: b8c3c22c2d9d6504ca8d2cb833f53d43, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 87e400ddf954d034c954eaaacdb25e90, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 99f16df2fd755f542afb95f00726d900, type: 2}
   m_UseUCBPForAssetBundles: 0
